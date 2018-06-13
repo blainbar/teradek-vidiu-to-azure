@@ -36,20 +36,20 @@ Start the Azure Media Services **CHANNEL**.
 
 Click **Start**
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/3startingchannel.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/3startingchannel.JPG)
 
 Make sure that the **CHANNEL** is started. 
 (*Note*: This may take a couple of minutes to start).
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/4channelrunning.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/4channelrunning.JPG)
 
 Next, start the Streaming Endpoint so you can start sending video from the TeraDek VidiU to Microsoft Azure Media Services. 
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/5startepstreaming.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/5startepstreaming.JPG)
 
 You should see the **STREAMING ENDPOINT** setup, Click** Start**
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/6endpointstarted.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/6endpointstarted.JPG)
 
 You’re now ready to setup the VidiU device. If you haven’t already went through the QuickStart Tutorial, please do this now at: [https://support.teradek.com/hc/en-us/articles/217446927-VidiU-Quickstart](https://support.teradek.com/hc/en-us/articles/217446927-VidiU-Quickstart) and watch the video on how to set up your VidiU device.
 
@@ -106,23 +106,23 @@ From the Apple App Store, download the TeraDek VidiU application so you can conf
 *Note:* You can still use the web interface or the buttons on the face of the actual device, but it is suggested to use the mobile app for remote or in the field operations using a hot spot.  Make sure that the mobile app and the Teradek device are on the same network!
 Download the app!
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/9phone1.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/9phone1.JPG)
  
 Use the mobile app to make changes to the config and start your broadcasts.
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/10phone2.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/10phone2.JPG)
   
 Open **Settings**, then **Broadcast**. 
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/11phone3.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/11phone3.JPG)
 
 Select **Platform**
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/12phone5.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/12phone5.JPG)
 
 Select **Manual**
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/13phone6.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/13phone6.JPG)
 
 **Make sure you are on the same network!** 
 
@@ -135,7 +135,7 @@ Go to Microsoft Azure and retrieve the URL for **INGEST URL (PRIMARY)** from the
 5.	Wait for the **“Live Event”** to start up, then select and copy the **PREVIEW URL**
 6.	Within the Azure Media Services, go to Default **LIVE EVENT** and click **Watch** to see the preview in the playback window. 
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/14watchpreview.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/14watchpreview.JPG)
 
 Finally, go to: [https://ampdemo.azureedge.net](https://ampdemo.azureedge.net) and make sure you use the PREVIEW URL for the player to be able to view the playback. Do not use the LOCATOR URL or you will get a playback error.
 
@@ -166,7 +166,7 @@ To download the MP4 and other files, go to your browser and enter the URL and th
 # Reducing Costs when running Microsoft Azure Media Services in Test/Dev: #
 When using Azure Media Service for Test/Dev: 
 
- ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/19streamepstop.jpg)
+ ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/19streamepstop.JPG)
  
 1.	Make sure and stop your **LIVE EVENT**
 2.	Make sure and stop your **CHANNEL**
