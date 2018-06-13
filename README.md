@@ -47,7 +47,7 @@ Next, start the Streaming Endpoint so you can start sending video from the TeraD
 
 ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/5startepstreaming.JPG)
 
-You should see the **STREAMING ENDPOINT** setup, Click** Start**
+You should see the **STREAMING ENDPOINT** setup, Click **Start**
 
 ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/6endpointstarted.JPG)
 
