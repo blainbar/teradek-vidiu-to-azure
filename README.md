@@ -2,7 +2,7 @@
 
 *Blain Barton*
 
-We’ll cover the setup for a VidiU TeraDex Encoder for “Live Streaming” video into Microsoft Azure Media Services. This will allow you to stream from any HDMI output to Azure Media Services and produce the code to use in your web and client applications. This will also setup “Video on Demand” and well as an Asset library for converting and storing your recordings as MP4 and other media formats. 
+This repo covers the setup for a VidiU TeraDex Encoder for “Live Streaming” video into Microsoft Azure Media Services. This will allow you to stream from any HDMI output to Azure Media Services and produce the code to use in your web and client applications. This will also setup “Video on Demand” and well as an Asset library for converting and storing your recordings as MP4 and other media formats. 
 
 ![](https://i.imgur.com/QmWboaX.jpg)
 
