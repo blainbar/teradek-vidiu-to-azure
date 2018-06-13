@@ -153,8 +153,6 @@ You can also **“Archive for download”** as well which will convert the VOD t
 
 Think of **“locator type”** as the URL’s that are created for the file types, also whether it is going to streaming live or storage as a file in the Assets within Microsoft Media Services. 
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/17archive4download.jpg)
-
 To download the MP4 and other files, go to your browser and enter the URL and the file will be available for download.
 
 ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/18mp4output.jpg)
