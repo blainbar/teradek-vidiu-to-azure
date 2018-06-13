@@ -8,8 +8,6 @@ This repo covers the setup for a VidiU TeraDex Encoder for “Live Streaming” 
 
 We'll be using the **Real-Time Messaging Protocol (RTMP)** which is now available as an open specification to create products and technology that enable delivery of video, audio, and data in the open AMF, SWF, FLV, and F4V formats.
 
- 
-
 To get started, you will need the following:
 
 -	Microsoft Azure Subscription 
@@ -25,33 +23,40 @@ Don’t have a Microsoft Azure Subscription? Go to: [https://azure.microsoft.com
 Second, follow this tutorial to setup your Microsoft Azure Media Services, [https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-create-account ](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-create-account )
 
 Once provisioned, your Azure Media Services should look like the **Resource Group** below,
- 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/1azureportal.jpg)
 
 You're now ready to setup your streaming from your VidiU to Azure Media Services.
 Use the **INGEST URL (PRIMARY)** as your connection string. 
 
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/2channelingesturl.jpg)
  
 Copy the URL and use this in the VidiU setup. Copy the URL to Notepad for later.
 Start the Azure Media Services **CHANNEL**.
 
 Click **Start**
 
- 
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/3startingchannel.jpg)
 
 Make sure that the **CHANNEL** is started. 
 (*Note*: This may take a couple of minutes to start).
 
- 
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/4channelrunning.jpg)
+
 Next, start the Streaming Endpoint so you can start sending video from the TeraDek VidiU to Microsoft Azure Media Services. 
- 
-You should see the S**TREAMING ENDPOINT** setup, Click** Start**
- 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/5startepstreaming.jpg)
+
+You should see the **STREAMING ENDPOINT** setup, Click** Start**
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/6endpointstarted.jpg)
 
 You’re now ready to setup the VidiU device. If you haven’t already went through the QuickStart Tutorial, please do this now at: [https://support.teradek.com/hc/en-us/articles/217446927-VidiU-Quickstart](https://support.teradek.com/hc/en-us/articles/217446927-VidiU-Quickstart) and watch the video on how to set up your VidiU device.
 
+# Accessing the Web User Interface (Web UI) of the VidiU from a computer #
 
-Accessing the Web User Interface (Web UI) of the VidiU from a computer 
- 
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/7vidiuinterface.jpg)
+
 *(Referenced from the VidiU website)*
 
 This web interface allows you to configure everything you need for the VidiU, however you can also do the same from the iOS mobile app or from the physical buttons on front of the device itself. The web interface is preferred, unless you do not have access to a computer on the same network. 
@@ -92,25 +97,33 @@ Tip – You can go into the client Wifi settings on the VidiU and select the net
 3.	Enter that IP address into the web browser's navigation field
 
 Here’s a screenshot of the connected Web Interface. 
- 
 
-Using the Apple iOS VidiU application to configure Microsoft Azure Media Services
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/8vidiuconnected.jpg) 
+
+# Using the Apple iOS VidiU application to configure Microsoft Azure Media Services #
 From the Apple App Store, download the TeraDek VidiU application so you can configure the device.  
 
 *Note:* You can still use the web interface or the buttons on the face of the actual device, but it is suggested to use the mobile app for remote or in the field operations using a hot spot.  Make sure that the mobile app and the Teradek device are on the same network!
 Download the app!
 
-
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/9phone1.jpg)
  
 Use the mobile app to make changes to the config and start your broadcasts.
- 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/10phone2.jpg)
   
 Open **Settings**, then **Broadcast**. 
- 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/11phone3.jpg)
+
 Select **Platform**
- 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/12phone5.jpg)
+
 Select **Manual**
- 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/13phone6.jpg)
+
 **Make sure you are on the same network!** 
 
 Go to Microsoft Azure and retrieve the URL for **INGEST URL (PRIMARY)** from the Channel, Overview section or from Notepad.
@@ -121,18 +134,28 @@ Go to Microsoft Azure and retrieve the URL for **INGEST URL (PRIMARY)** from the
 4.	Go to the VidiU device and **Start Broadcast**, select **“yes”** from the device menu.
 5.	Wait for the **“Live Event”** to start up, then select and copy the **PREVIEW URL**
 6.	Within the Azure Media Services, go to Default **LIVE EVENT** and click **Watch** to see the preview in the playback window. 
- 
-Finally, go to: [https://ampdemo.azureedge.net](https://ampdemo.azureedge.net) and make sure you use the PREVIEW URL for the player to be able to view the playback. Do not use the LOCATOR URL or you will get a playback error.
- 
-All “Live” recordings are automatically converted to “Video on Demand”.  
-You can also “Archive for download” as well which will convert the VOD to file formats including MP4 and others. 
 
-To get the MP4 and other file formats, you need to select Progressive (Locator type) so that it creates a URL for download and not for the live streaming. 
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/14watchpreview.jpg)
+
+Finally, go to: [https://ampdemo.azureedge.net](https://ampdemo.azureedge.net) and make sure you use the PREVIEW URL for the player to be able to view the playback. Do not use the LOCATOR URL or you will get a playback error.
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/15finalpreview.jpg)
+
+All “Live” recordings are automatically converted to “Video on Demand”.  
+
+To get the MP4 and other file formats, you need to select **Progressive** (Locator type) so that it creates a URL for download and not for the live streaming. 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/16progressivemp4.jpg)
+
+You can also **“Archive for download”** as well which will convert the VOD to file formats including MP4 and others. 
 
 Think of **“locator type”** as the URL’s that are created for the file types, also whether it is going to streaming live or storage as a file in the Assets within Microsoft Media Services. 
 
- 
-To download the MP4 and other files, go to your browser and enter the URL and the file will be available for download. 
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/17archive4download.jpg)
+
+To download the MP4 and other files, go to your browser and enter the URL and the file will be available for download.
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/18mp4output.jpg)
  
 # Troubleshooting Tips: #
 
@@ -143,6 +166,7 @@ To download the MP4 and other files, go to your browser and enter the URL and th
 # Reducing Costs when running Microsoft Azure Media Services in Test/Dev: #
 When using Azure Media Service for Test/Dev: 
 
+ ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/19streamepstop.jpg)
  
 1.	Make sure and stop your **LIVE EVENT**
 2.	Make sure and stop your **CHANNEL**
