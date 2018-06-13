@@ -4,7 +4,7 @@
 
 This repo covers the setup for a VidiU TeraDex Encoder for “Live Streaming” video into Microsoft Azure Media Services. This will allow you to stream from any HDMI output to Azure Media Services and produce the code to use in your web and client applications. This will also setup “Video on Demand” and well as an Asset library for converting and storing your recordings as MP4 and other media formats. 
 
-[](https://github.com/blainbar/teradek-vidiu-to-azure/images/01teradek.jpg)
+[](https://github.com/blainbar/teradek-vidiu-to-azure/blob/masterimages/01teradek.jpg)
 
 We'll be using the **Real-Time Messaging Protocol (RTMP)** which is now available as an open specification to create products and technology that enable delivery of video, audio, and data in the open AMF, SWF, FLV, and F4V formats.
 
