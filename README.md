@@ -55,7 +55,7 @@ You’re now ready to setup the VidiU device. If you haven’t already went thro
 
 # Accessing the Web User Interface (Web UI) of the VidiU from a computer #
 
-![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/7vidiuinterface.jpg)
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/7vidiuintereface.jpg)
 
 *(Referenced from the VidiU website)*
 
