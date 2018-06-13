@@ -6,7 +6,7 @@ This repo covers the setup for a VidiU TeraDex Encoder for “Live Streaming” 
 
 ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/01teradek.jpg)
 
-We'll be using the **Real-Time Messaging Protocol (RTMP)** which is now available as an open specification to create products and technology that enable delivery of video, audio, and data in the open AMF, SWF, FLV, and F4V formats.
+We'll be using the **Real-Time Messaging Protocol (RTMP)** which is now available as an open specification to create products and technology that enable delivery of video, audio, and data in the open AMF, SWF, FLV, MP4 and F4V formats.
 
 To get started, you will need the following:
 
