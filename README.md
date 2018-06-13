@@ -149,6 +149,8 @@ To get the MP4 and other file formats, you need to select **Progressive** (Locat
 
 You can also **“Archive for download”** as well which will convert the VOD to file formats including MP4 and others. 
 
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/17archive4download.jpg)
+
 Think of **“locator type”** as the URL’s that are created for the file types, also whether it is going to streaming live or storage as a file in the Assets within Microsoft Media Services. 
 
 ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/17archive4download.jpg)
