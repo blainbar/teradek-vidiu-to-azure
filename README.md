@@ -156,6 +156,10 @@ Think of **“locator type”** as the URL’s that are created for the file typ
 To download the MP4 and other files, go to your browser and enter the URL and the file will be available for download.
 
 ![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/18mp4output.jpg)
+
+You can now use the code outputs for player and embedding into applications. 
+
+![](https://github.com/blainbar/teradek-vidiu-to-azure/blob/master/images/20codeoutput.JPG)
  
 # Troubleshooting Tips: #
 
