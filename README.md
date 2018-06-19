@@ -20,7 +20,7 @@ To get started, you will need the following:
 First, setup your Azure Media Services within your Microsoft Azure Subscription. 
 Don’t have a Microsoft Azure Subscription? Go to: [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/) 
 
-Second, follow this tutorial to setup your Microsoft Azure Media Services, [https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-create-account ](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-create-account )
+Second, follow this tutorial to setup your Microsoft Azure Media Services, if you do not see the "Media Services" in the list, select Marketplace and search for "Media Services". Go to: [https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-create-account ](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-portal-create-account )
 
 Once provisioned, your Azure Media Services should look like the **Resource Group** below,
 
